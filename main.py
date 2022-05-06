@@ -12,11 +12,8 @@ from kivy.properties import StringProperty
 from kivy.properties import BooleanProperty
 from kivy.core.window import Window 
 
-from kivy.lang import Builder
-from kivymd.app import MDapp
-
-class CanvasExample2(Widget):
-    Window.borderless = True
+#class CanvasExample2(Widget):
+ #   Window.borderless = True
 
 class WidgetsExample(GridLayout):
     my_text = StringProperty("0")
